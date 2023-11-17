@@ -1,0 +1,87 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ 
+ .form{
+    width: 300px;
+    margin: 0 auto;
+ 
+ }
+ 
+ .form input{
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    padding: 5px 0;
+    outline: none;
+ 
+ }
+ .form button{
+    width: 100%;
+    margin: 2px 0;
+    background: indigo;
+    color: #fff;
+    padding: 5px 0;
+    border: 1px solid indigo;
+    cursor: pointer;
+    transition: .5s ease-in;
+ }
+ 
+ .form button:hover{
+    background: transparent;
+    border: 1px solid;
+    color: #111;
+ }
+ .update_Data{
+    visibility: hidden;
+ }
+ .show{
+    visibility: visible;
+ }
+ 
+ 
+ .table{
+    margin: 20px  auto;
+    width: 60%;
+    
+ }
+  table{
+    width: 100%;
+  }
+ table tr td{
+    border: 1px solid;
+    padding: 5px 10px;
+ }
+ table  button{
+    padding: 5px 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border: 1px solid;
+    transition: .5s ease-in;
+ 
+ }
+ table  button:hover{
+    border: 1px solid;
+    color: #111;
+    background: transparent;
+ }
+ table  .del{
+    background: rgb(108, 6, 6);
+    color: #fff;
+ }
+ table  .up{
+    background: rgb(6, 54, 108);
+    color: #fff;
+ }
+ 
+ #notification{
+    background: skyblue;
+    width: 100%;
+    display: block;
+    text-align: center;
+ 
+ 
+ }
